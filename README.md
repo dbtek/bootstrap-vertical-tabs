@@ -7,9 +7,9 @@ Vertical tabs component for Bootstrap 3.
 
 * [Download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/master.zip) the latest css.
 * Include in your html.
-```<link rel="stylesheet" href="bootstrap.vertical-tabs.css">```
+```html <link rel="stylesheet" href="bootstrap.vertical-tabs.css">```
 * Use it.
-``` html
+```html
 <div class="col-sm-3"> <!-- required for floating -->  
     <!-- Nav tabs -->  
     <ul class="nav nav-tabs-vertical">  
