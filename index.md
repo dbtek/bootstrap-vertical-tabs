@@ -1,8 +1,25 @@
 ---
 layout: page
-title: Demo
-menu: 2
+title: Home
+menu: 1
 ---
+
+Missing vertical tabs component for Bootstrap 3. By [dbtek](http://ismaildemirbilek.com).
+
+<a class="btn btn-default" href="https://github.com/dbtek/bootstrap-vertical-tabs">Get it on GitHub</a>
+
+#### Usage
+
+* [Download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/master.zip) the latest css.
+* Include in your html.
+
+```html
+<link rel="stylesheet" href="bootstrap.vertical-tabs.css">
+```
+
+* Use it.
+
+{% highlight html %}
 <div class="col-sm-3"> <!-- required for floating -->
     <!-- Nav tabs -->
     <ul class="nav nav-tabs-vertical">
@@ -21,3 +38,7 @@ menu: 2
       <div class="tab-pane" id="settings">Settings Tab.</div>
     </div>
 </div>
+</code>
+{% endhighlight %}
+
+

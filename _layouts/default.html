@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ site.name }} - {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
+
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+            <ul class="nav nav-pills pull-right" style="position:relative; top:43px;">
+                <li {% if page.menu == 1 %}class="active"{% endif %}><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li {% if page.menu == 2 %}class="active"{% endif %}><a href="demo.html"><span class="glyphicon glyphicon-play-circle"></span> Demo</a></li>
+            </ul>
+
+            <div class="page-header">
+              <h3>{{ site.name }} <small>| {{page.title}}</small></h3>
+            </div>
+
+            <span class="pull-right"><iframe src="http://ghbtns.com/github-btn.html?user=dbtek&repo=bootstrap-vertical-tabs&type=fork"
+      allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe></span>
+
+            {{ content }}
+
+            <div class="clearfix"></div>
+
+            <footer class="footer" style="margin-bottom:10px; width:100%; text-align:center">
+                <hr/>
+                <a href="https://github.com/dbtek/bootstrap-vertical-tabs">Bootstrap Vertical Tabs</a> is brought to you by <a href="http://ismaildemirbilek.com">dbtek</a>, open sourced under <a href="opensource.org/licenses/MIT">MIT</a> license.
+            </footer>
+        </div>
+    </body>
+</html>
