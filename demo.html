@@ -13,25 +13,55 @@
         <div class="page-header">
           <h1>Bootstrap Vertical Tabs <small> | Demo</small></h1>
         </div>
-        <span class="pull-right"><iframe src="http://ghbtns.com/github-btn.html?user=dbtek&repo=bootstrap-vertical-tabs&type=fork"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe></span>
 
-        <div class="col-sm-3"> <!-- required for floating -->
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs-vertical">
-              <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-              <li><a href="#profile" data-toggle="tab">Profile</a></li>
-              <li><a href="#messages" data-toggle="tab">Messages</a></li>
-              <li><a href="#settings" data-toggle="tab">Settings</a></li>
-            </ul>
+        <div  class="col-sm-6">
+            <h3>Left Tabs</h3>
+            <hr/>
+            <div class="col-xs-3"> <!-- required for floating -->
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs tabs-left">
+                  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                  <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-9">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane active" id="home">Home Tab.</div>
+                  <div class="tab-pane" id="profile">Profile Tab.</div>
+                  <div class="tab-pane" id="messages">Messages Tab.</div>
+                  <div class="tab-pane" id="settings">Settings Tab.</div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
         </div>
-        <div class="col-sm-9">
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div class="tab-pane active" id="home">Home Tab.</div>
-              <div class="tab-pane" id="profile">Profile Tab.</div>
-              <div class="tab-pane" id="messages">Messages Tab.</div>
-              <div class="tab-pane" id="settings">Settings Tab.</div>
+
+        <div  class="col-sm-6">
+            <h3>Right Tabs</h3>
+            <hr/>
+            <div class="col-xs-9">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane active" id="home-r">Home Tab.</div>
+                  <div class="tab-pane" id="profile-r">Profile Tab.</div>
+                  <div class="tab-pane" id="messages-r">Messages Tab.</div>
+                  <div class="tab-pane" id="settings-r">Settings Tab.</div>
+                </div>
+            </div>
+
+            <div class="col-xs-3"> <!-- required for floating -->
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs tabs-right">
+                  <li class="active"><a href="#home-r" data-toggle="tab">Home</a></li>
+                  <li><a href="#profile-r" data-toggle="tab">Profile</a></li>
+                  <li><a href="#messages-r" data-toggle="tab">Messages</a></li>
+                  <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
+                </ul>
             </div>
         </div>
 
