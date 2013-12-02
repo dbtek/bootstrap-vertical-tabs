@@ -5,8 +5,7 @@
  *  MIT License
  */
 
-.tabs-left,
-.tabs-right {
+.tabs-left, .tabs-right {
     border-bottom: none;
     padding-top: 2px;
 }
@@ -16,8 +15,7 @@
 .tabs-right {
     border-left: 1px solid #ddd;
 }
-.tabs-left>li,
-.tabs-right>li {
+.tabs-left>li, .tabs-right>li {
     float: none;
     margin-bottom: 2px;
 }
@@ -27,13 +25,11 @@
 .tabs-right>li {
     margin-left: -1px;
 }
-.tabs-left>li.active>a,
-.tabs-left>li.active>a: hover, .tabs-left>li.active>a: focus {
-    border-bottom: 1px solid #ddd !important;
+.tabs-left>li.active>a, .tabs-left>li.active>a:hover, .tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
     border-right-color: transparent;
 }
-.tabs-right>li.active>a,
-.tabs-right>li.active>a: hover, .tabs-right>li.active>a: focus {
+.tabs-right>li.active>a, .tabs-right>li.active>a:hover, .tabs-right>li.active>a:focus {
     border-bottom: 1px solid #ddd;
     border-left-color: transparent;
 }

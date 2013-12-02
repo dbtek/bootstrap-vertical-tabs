@@ -5,7 +5,7 @@ Vertical tabs component for Bootstrap 3.
 v0.2
 
 ### Changelog
-** v 0.2 **
+**v 0.2**
 * Left tabs and right tabs added, class names updated.
 * Updated usage: ``` class="nav nav-tabs tabs-left" ```
 
