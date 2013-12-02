@@ -43,6 +43,6 @@ Missing vertical tabs component for Bootstrap 3 by [dbtek](http://ismaildemirbil
 
 ### License
 
-Open Sourced under [MIT License](http://opensource.org/licenses/mit)
+Open Sourced under [MIT License](http://opensource.org/licenses/mit).
 
 
