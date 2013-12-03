@@ -1,14 +1,10 @@
 ---
 layout: page
 title: Home
-menu: 1
+menu: 2
 ---
 
-Missing vertical tabs component for Bootstrap 3 by [dbtek](http://ismaildemirbilek.com).
-
-<a class="btn btn-default" href="https://github.com/dbtek/bootstrap-vertical-tabs">Get it on GitHub</a>
-
-### Usage
+<h3>Bootstrap Vertical Tabs <small>USAGE</small></h3>
 
 * [Download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/master.zip) the latest css.
 * Include in your html.
@@ -22,7 +18,7 @@ Missing vertical tabs component for Bootstrap 3 by [dbtek](http://ismaildemirbil
 {% highlight html %}
 <div class="col-xs-3"> <!-- required for floating -->
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs tabs-left">
+    <ul class="nav nav-tabs tabs-left"><!-- 'tabs-right' for right tabs -->
       <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
       <li><a href="#profile" data-toggle="tab">Profile</a></li>
       <li><a href="#messages" data-toggle="tab">Messages</a></li>
@@ -44,5 +40,3 @@ Missing vertical tabs component for Bootstrap 3 by [dbtek](http://ismaildemirbil
 ### License
 
 Open Sourced under [MIT License](http://opensource.org/licenses/mit).
-
-

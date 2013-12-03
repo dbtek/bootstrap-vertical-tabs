@@ -6,9 +6,11 @@
         <title>{{ site.name }} - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <!-- Le styles -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/yeti/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
-
+        <link rel="stylesheet" href="css/style.css">
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="css/syntax.css">
 
@@ -16,29 +18,22 @@
     <body>
 
         <div class="container">
-            <ul class="nav nav-pills pull-right" style="position:relative; top:35px;">
+            <ul class="nav nav-pills pull-right" style="margin-top:15px; margin-bottom: 15px;">
                 <li {% if page.menu == 1 %}class="active"{% endif %}><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                <li {% if page.menu == 2 %}class="active"{% endif %}><a href="demo.html"><span class="glyphicon glyphicon-play-circle"></span> Demo</a></li>
+                <li {% if page.menu == 2 %}class="active"{% endif %}><a href="learn.html"><i class="fa fa-code"></i> Learn</a></li>
+                <li {% if page.menu == 3 %}class="active"{% endif %}><a href="demo.html"><span class="glyphicon glyphicon-play"></span> Demo</a></li>
             </ul>
-
-            <div class="page-header">
-              <h3>{{ site.name }} <small>| {{page.title}}</small></h3>
-            </div>
-
-            <span class="pull-right"><iframe src="http://ghbtns.com/github-btn.html?user=dbtek&repo=bootstrap-vertical-tabs&type=fork"
-      allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe></span>
-
             <div class="clearfix"></div>
             
             {{ content }}
 
             <div class="clearfix"></div>
 
-            <footer class="footer" style="margin-bottom:10px; width:100%; text-align:center">
-                <hr/>
-                <a href="https://github.com/dbtek/bootstrap-vertical-tabs">Bootstrap Vertical Tabs</a> is brought to you by <a href="http://ismaildemirbilek.com">dbtek</a>, open sourced under <a href="opensource.org/licenses/MIT">MIT</a> license.
-            </footer>
         </div>
+        <footer class="footer" style="position:absolute; bottom:0px; margin-bottom:10px; width:100%; text-align:center">
+            <hr/>
+            <a href="https://github.com/dbtek/bootstrap-vertical-tabs">Bootstrap Vertical Tabs</a> is brought to you by <a href="http://ismaildemirbilek.com">dbtek</a>, open sourced under <a href="opensource.org/licenses/MIT">MIT</a> license.
+        </footer>
         <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
         <script type="text/javascript">

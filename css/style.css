@@ -1,0 +1,13 @@
+.about-links {
+    color: #95a5a6;
+}
+.about-links a {
+    color: #95a5a6;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.about-links a:hover {
+    color: #2c3e50;
+}
