@@ -4,7 +4,7 @@ title: Home
 menu: 2
 ---
 
-<h3>Bootstrap Vertical Tabs <small>USAGE</small></h3>
+<h3 style="margin-top:-15px;margin-bottom:20px;">Bootstrap Vertical Tabs <small>USAGE</small></h3>
 
 * [Download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/master.zip) the latest css.
 * Include in your html.
@@ -36,7 +36,3 @@ menu: 2
     </div>
 </div>
 {% endhighlight %}
-
-### License
-
-Open Sourced under [MIT License](http://opensource.org/licenses/mit).
