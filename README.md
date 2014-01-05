@@ -1,17 +1,28 @@
 Bootstrap Vertical Tabs
 =======================
 
-Vertical tabs component for Bootstrap 3.
-v0.2
+Vertical tabs component for Bootstrap 3.  
+v1.0.0  
 
 ### Changelog
-**v 0.2**
+**v1.0.0**
+* Bower package available.
+* Minified css added.
+  
+**v0.2**
 * Left tabs and right tabs added, class names updated.
 * Updated usage: ``` class="nav nav-tabs tabs-left" ```
 
+### Install
+* Via bower (recommended):  
+```bash
+  bower install bootstrap-vertical-tabs
+```
+* Or you can just clone, [download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.0.0.zip) from GitHub.
+
 ### Usage
 
-* [Download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/master.zip) the latest css.
+* [Get](https://github.com/dbtek/bootstrap-vertical-tabs#install) the package.
 * Include in your html.
 
 ```html
@@ -45,6 +56,9 @@ v0.2
 
 ### License
 [MIT](opensource.org/licenses/MIT)
+
+### Author
+Ismail Demirbilek, [@dbtek](http://twitter.com/dbtek).
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/bootstrap-vertical-tabs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
