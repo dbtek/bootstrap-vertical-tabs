@@ -6,11 +6,13 @@ menu: 2
 
 <h3 style="margin-top:-15px;margin-bottom:20px;">Bootstrap Vertical Tabs <small>USAGE</small></h3>
 
-* [Download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/master.zip) the latest css.
+* Install Bootstrap Vertical Tabs  
+  Via bower: {% highlight bash %} bower install bootstrap-vertical-tabs {% endhighlight %}  
+  Or from [Github](https://github.com/dbtek/bootstrap-vertical-tabs).
 * Include in your html.
 
 ```html
-<link rel="stylesheet" href="bootstrap.vertical-tabs.css">
+<link rel="stylesheet" href="bootstrap.vertical-tabs.min.css" />
 ```
 
 * Use it.

@@ -1,0 +1,76 @@
+<html>
+<head>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="page-header">
+          <h1>Bootstrap Vertical Tabs <small> | Demo</small></h1>
+        </div>
+
+        <div  class="col-sm-6">
+            <h3>Left Tabs</h3>
+            <hr/>
+            <div class="col-xs-3"> <!-- required for floating -->
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs tabs-left">
+                  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                  <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                  <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                  <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-9">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane active" id="home">Home Tab.</div>
+                  <div class="tab-pane" id="profile">Profile Tab.</div>
+                  <div class="tab-pane" id="messages">Messages Tab.</div>
+                  <div class="tab-pane" id="settings">Settings Tab.</div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+        <div  class="col-sm-6">
+            <h3>Right Tabs</h3>
+            <hr/>
+            <div class="col-xs-9">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane active" id="home-r">Home Tab.</div>
+                  <div class="tab-pane" id="profile-r">Profile Tab.</div>
+                  <div class="tab-pane" id="messages-r">Messages Tab.</div>
+                  <div class="tab-pane" id="settings-r">Settings Tab.</div>
+                </div>
+            </div>
+
+            <div class="col-xs-3"> <!-- required for floating -->
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs tabs-right">
+                  <li class="active"><a href="#home-r" data-toggle="tab">Home</a></li>
+                  <li><a href="#profile-r" data-toggle="tab">Profile</a></li>
+                  <li><a href="#messages-r" data-toggle="tab">Messages</a></li>
+                  <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer" style="position:absolute; bottom:10px; width:100%; text-align:center">
+        <hr/>
+        <a href="https://github.com/dbtek/bootstrap-vertical-tabs">Bootstrap Vertical Tabs</a> is brought to you by <a href="http://ismaildemirbilek.com">dbtek</a>, open sourced under <a href="opensource.org/licenses/MIT">MIT</a> license.
+    </footer>
+
+
+</body>

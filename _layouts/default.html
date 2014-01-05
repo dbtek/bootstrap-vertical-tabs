@@ -6,16 +6,15 @@
         <title>{{ site.name }} - {{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="{{ site.description }}">
-	<meta name="keywords" content="{{ site.keywords }}">
+        <meta name="keywords" content="{{ site.keywords }}">
         <meta name="author" content="{{ site.author }}">
 
         <!-- Le styles -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/yeti/bootstrap.min.css">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-        <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="css/syntax.css">
+        <link rel="stylesheet" href="assets/css/syntax.css">
 
     </head>
     <body>
@@ -33,7 +32,7 @@
             <div class="clearfix"></div>
 
         </div>
-        <footer class="footer" style="position:absolute; bottom:0px; margin-bottom:10px; width:100%; text-align:center">
+        <footer class="footer" style="padding-bottom:10px; width:100%; text-align:center">
             <hr/>
             <span style="font-family:Arial">©</span> {{ site.time | date: '%Y' }}
             <a href="https://github.com/dbtek/bootstrap-vertical-tabs" onclick="_gaq.push(['_trackEvent', 'Outbound Link', 'Download from Github']);">
@@ -53,6 +52,11 @@
           ga('create', 'UA-46512232-4', 'dbtek.github.io');
           ga('send', 'pageview');
         
+        </script>
+        <script>
+        	var wHeight = $(window).height();
+        	var height = wHeight - $('.footer').height();
+        	$('.container').css('min-height',height);
         </script>
     </body>
 </html>
