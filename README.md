@@ -15,7 +15,7 @@ v1.0.0
 
 ### Install
 * Via bower (recommended):  
-```bash
+```bash  
   bower install bootstrap-vertical-tabs
 ```
 * Or you can just clone, [download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.0.0.zip) from GitHub.
