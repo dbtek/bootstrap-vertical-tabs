@@ -8,7 +8,7 @@ menu: 2
 
 * Install Bootstrap Vertical Tabs  
   Via bower: {% highlight bash %} bower install bootstrap-vertical-tabs {% endhighlight %}  
-  Or from [Github](https://github.com/dbtek/bootstrap-vertical-tabs).
+  Or download from [Github](https://github.com/dbtek/bootstrap-vertical-tabs).
 * Include in your html.
 
 ```html
