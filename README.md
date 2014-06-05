@@ -67,7 +67,6 @@ Vertical tabs component for Bootstrap 3.
     <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
   </ul>
 </div>
-</div>
 ```
 * :new: Vertical texts! add `vertical-text` class to tabs.
 
