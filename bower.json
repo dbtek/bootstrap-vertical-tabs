@@ -1,0 +1,6 @@
+{
+	"name": "bootstrap-vertical-tabs-web", 
+	"dependencies": {
+		"bootstrap-vertical-tabs": "~1.1.0"
+	}
+}
