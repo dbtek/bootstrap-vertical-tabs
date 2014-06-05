@@ -21,7 +21,7 @@
     "tests",
     "Gruntfile.js",
     "package.json",
-    "screenshot.png",
+    "*.png",
     "demo.html",
     "src"
   ],
