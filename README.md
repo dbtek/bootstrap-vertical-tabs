@@ -10,7 +10,7 @@ Vertical tabs component for Bootstrap 3.
 ```bash  
   bower install bootstrap-vertical-tabs
 ```
-* Or you can just clone, [download](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.0.0.zip) from GitHub.
+* Or you can just clone, [download (v1.1.0)](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.1.0.zip) from GitHub.
 
 ### Usage
 
@@ -23,6 +23,7 @@ Vertical tabs component for Bootstrap 3.
 
 * Use it.
 
+#### Left Tabs
 ```html
 <div class="col-xs-3"> <!-- required for floating -->
     <!-- Nav tabs -->
@@ -44,6 +45,34 @@ Vertical tabs component for Bootstrap 3.
     </div>
 </div>  
 ```
+
+#### Right Tabs
+```html
+<div class="col-xs-9">
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="home-r">Home Tab.</div>
+    <div class="tab-pane" id="profile-r">Profile Tab.</div>
+    <div class="tab-pane" id="messages-r">Messages Tab.</div>
+    <div class="tab-pane" id="settings-r">Settings Tab.</div>
+  </div>
+</div>
+
+<div class="col-xs-3"> <!-- required for floating -->
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs tabs-right">
+    <li class="active"><a href="#home-r" data-toggle="tab">Home</a></li>
+    <li><a href="#profile-r" data-toggle="tab">Profile</a></li>
+    <li><a href="#messages-r" data-toggle="tab">Messages</a></li>
+    <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
+  </ul>
+</div>
+</div>
+```
+* :new: Vertical texts! add `vertical-text` class to tabs.
+
+![screenshot vertical texts](screenshot-v.png)
+
 * Further, take a look at included demo!
 
 ### License

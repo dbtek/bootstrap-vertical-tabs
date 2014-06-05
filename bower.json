@@ -18,7 +18,12 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "Gruntfile.js",
+    "package.json",
+    "screenshot.png",
+    "demo.html",
+    "src"
   ],
   "dependencies": {
     "bootstrap": "~3.0.3"
