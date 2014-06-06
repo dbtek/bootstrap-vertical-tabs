@@ -68,7 +68,9 @@ Vertical tabs component for Bootstrap 3.
   </ul>
 </div>
 ```
-* :new: Vertical texts! add `vertical-text` class to tabs.
+####Vertical Texts :new:
+
+* Add `vertical-text` class to tabs.
 
 ![screenshot vertical texts](screenshot-v.png)
 
