@@ -68,13 +68,19 @@ Vertical tabs component for Bootstrap 3.
   </ul>
 </div>
 ```
-####Vertical Texts :new:
+####Sideways Tabs :new:
 
-* Add `vertical-text` class to tabs.
+Add `sideways` class to tabs.
+
+Example:
+```
+  <ul class="nav nav-tabs tabs-left sideways">
+    ...
+```
 
 ![screenshot vertical texts](screenshot-v.png)
 
-* Further, take a look at included demo!
+Further, take a look at included demo!
 
 ### License
 [MIT](opensource.org/licenses/MIT)
