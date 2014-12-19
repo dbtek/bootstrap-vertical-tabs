@@ -7,18 +7,15 @@ menu: 2
 <h3 style="margin-top:-15px;margin-bottom:20px;">Bootstrap Vertical Tabs <small>USAGE</small></h3>
 <hr/>
 
-<!-- project-banner -->
-<ins class="adsbygoogle ads banner"
-     style="display:inline-block;height:90px"
-     data-ad-client="ca-pub-7616772085785107"
-     data-ad-slot="9029014820"></ins>
+<div class="pull-right col-lg-4 col-sm-6 col-md-5">
+  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=dbtek" id="_carbonads_js"></script>
+</div>
 
 * Install Bootstrap Vertical Tabs  
-  Via bower: {% highlight bash %} bower install bootstrap-vertical-tabs {% endhighlight %}  
+  Via bower: `$ bower install bootstrap-vertical-tabs`  
     Or download from [Github](https://github.com/dbtek/bootstrap-vertical-tabs).
-* Include in your html. {% highlight html %}
-  <link rel="stylesheet" href="bootstrap.vertical-tabs.min.css" />
-{% endhighlight %}
+
+* Include css in your html.
 
 * Use it. {% highlight html %}
   <div class="col-xs-3"> <!-- required for floating -->
