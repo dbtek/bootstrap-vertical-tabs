@@ -6,6 +6,7 @@
   "author": {
     "name": "İsmail Demirbilek"
   },
+  "repository": "https://github.com/dbtek/bootstrap-vertical-tabs.git",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.2",
