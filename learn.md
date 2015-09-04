@@ -8,7 +8,12 @@ menu: 2
 <hr/>
 
 <div class="pull-right col-lg-4 col-sm-6 col-md-5">
-  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=dbtek" id="_carbonads_js"></script>
+    <!-- project -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7616772085785107"
+         data-ad-slot="4486838427"
+         data-ad-format="auto"></ins>
 </div>
 
 * Install Bootstrap Vertical Tabs  
