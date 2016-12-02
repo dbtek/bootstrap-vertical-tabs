@@ -86,6 +86,3 @@ Further, take a look at included demo!
 
 ### Author
 Ismail Demirbilek, [@dbtek](http://twitter.com/dbtek).
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/bootstrap-vertical-tabs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
