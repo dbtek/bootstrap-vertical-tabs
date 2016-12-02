@@ -1,7 +1,7 @@
 Bootstrap Vertical Tabs ![bower version](http://img.shields.io/bower/v/bootstrap-vertical-tabs.svg)
 =======================
 
-Vertical tabs component for Bootstrap 3. Works with 3.0.0+ to 3.3.0.
+Vertical tabs component for Bootstrap 3.
 
 ![screenshot](screenshot.png)
 
