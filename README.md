@@ -19,12 +19,7 @@ Vertical tabs component for Bootstrap 3. Works with 3.0.0+ to 3.3.0.
 ### Usage
 
 * [Get](https://github.com/dbtek/bootstrap-vertical-tabs#install) the package.
-* Include in your html.
-
-```html
-<link rel="stylesheet" href="bootstrap.vertical-tabs.css">
-```
-
+* Include css in your html. / Load with webpack or css processors.
 * Use it.
 
 #### Left Tabs
