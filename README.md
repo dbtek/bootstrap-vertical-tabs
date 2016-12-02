@@ -6,11 +6,15 @@ Vertical tabs component for Bootstrap 3. Works with 3.0.0+ to 3.3.0.
 ![screenshot](screenshot.png)
 
 ### Install
-* Via bower (recommended):  
-```bash  
-  bower install bootstrap-vertical-tabs
+* Via npm:
+```bash
+ $ npm i -S bootstrap-vertical-tabs
 ```
-* Or you can just clone, [download (v1.2.1)](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.2.1.zip) from GitHub.
+* Via bower (recommended):
+```bash
+ $ bower install bootstrap-vertical-tabs
+```
+* Or you can just clone, [download (v1.2.2)](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.2.2.zip) from GitHub.
 
 ### Usage
 
@@ -43,7 +47,7 @@ Vertical tabs component for Bootstrap 3. Works with 3.0.0+ to 3.3.0.
       <div class="tab-pane" id="messages">Messages Tab.</div>
       <div class="tab-pane" id="settings">Settings Tab.</div>
     </div>
-</div>  
+</div>
 ```
 
 #### Right Tabs
