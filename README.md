@@ -67,7 +67,7 @@ Vertical tabs component for Bootstrap 3.
   </ul>
 </div>
 ```
-####Sideways Tabs :new:
+#### Sideways Tabs :new:
 
 Add `sideways` class to tabs.
 
