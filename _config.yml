@@ -1,6 +1,6 @@
 name: Bootstrap Vertical Tabs
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 author: İsmail Demirbilek
 description: Missing vertical-tabs component for Bootstrap 3
