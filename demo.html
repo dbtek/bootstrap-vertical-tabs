@@ -7,8 +7,143 @@ menu: 3
 <h3 style="margin-top:-15px;margin-bottom:20px;">Bootstrap Vertical Tabs <small>DEMO</small></h3>
 <hr/>
 
-<div class="pull-right col-lg-4 col-sm-6 col-md-5">
-  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=dbtek" id="_carbonads_js"></script>
+<div class="col-lg-8 col-sm-6 col-md-7">
+  <p>All variations of vertical tabs can be found below.</p>
+  <p>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#sourceDialog">Source Code</button>
+  </p>
+</div>
+<div class="col-lg-4 col-sm-6 col-md-5">
+    <!-- project -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7616772085785107"
+         data-ad-slot="4486838427"
+         data-ad-format="auto"></ins>
 </div>
 
-<iframe src="bare-demo.html" seamless="1" frameborder="0" width="100%" height="1000"></iframe>
+<!-- Modal -->
+<div class="modal fade" id="sourceDialog" tabindex="-1" role="dialog" aria-labelledby="sourceDialogLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="sourceDialogLabel">Source</h4>
+      </div>
+      <div class="modal-body">
+{% highlight html %}
+<div  class="col-sm-6">
+  <h3>Left Tabs</h3>
+  <hr/>
+  <div class="col-xs-3"> <!-- required for floating -->
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs tabs-left">
+      <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+      <li><a href="#profile" data-toggle="tab">Profile</a></li>
+      <li><a href="#messages" data-toggle="tab">Messages</a></li>
+      <li><a href="#settings" data-toggle="tab">Settings</a></li>
+    </ul>
+  </div>
+
+  <div class="col-xs-9">
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane active" id="home">Home Tab.</div>
+      <div class="tab-pane" id="profile">Profile Tab.</div>
+      <div class="tab-pane" id="messages">Messages Tab.</div>
+      <div class="tab-pane" id="settings">Settings Tab.</div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+</div>
+
+<div  class="col-sm-6">
+  <h3>Right Tabs</h3>
+  <hr/>
+  <div class="col-xs-9">
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane active" id="home-r">Home Tab.</div>
+      <div class="tab-pane" id="profile-r">Profile Tab.</div>
+      <div class="tab-pane" id="messages-r">Messages Tab.</div>
+      <div class="tab-pane" id="settings-r">Settings Tab.</div>
+    </div>
+  </div>
+
+  <div class="col-xs-3"> <!-- required for floating -->
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs tabs-right">
+      <li class="active"><a href="#home-r" data-toggle="tab">Home</a></li>
+      <li><a href="#profile-r" data-toggle="tab">Profile</a></li>
+      <li><a href="#messages-r" data-toggle="tab">Messages</a></li>
+      <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="row">
+  <div  class="col-sm-6">
+    <h3>Left Tabs - Sideways</h3>
+    <hr/>
+    <div class="col-xs-3"> <!-- required for floating -->
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs tabs-left sideways">
+        <li class="active"><a href="#home-v" data-toggle="tab">Home</a></li>
+        <li><a href="#profile-v" data-toggle="tab">Profile</a></li>
+        <li><a href="#messages-v" data-toggle="tab">Messages</a></li>
+        <li><a href="#settings-v" data-toggle="tab">Settings</a></li>
+      </ul>
+    </div>
+
+    <div class="col-xs-9">
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home-v">Home Tab.</div>
+        <div class="tab-pane" id="profile-v">Profile Tab.</div>
+        <div class="tab-pane" id="messages-v">Messages Tab.</div>
+        <div class="tab-pane" id="settings-v">Settings Tab.</div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+  </div>
+
+  <div  class="col-sm-6">
+    <h3>Right Tabs - Sideways</h3>
+    <hr/>
+    <div class="col-xs-9">
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home-vr">Home Tab.</div>
+        <div class="tab-pane" id="profile-vr">Profile Tab.</div>
+        <div class="tab-pane" id="messages-vr">Messages Tab.</div>
+        <div class="tab-pane" id="settings-vr">Settings Tab.</div>
+      </div>
+    </div>
+
+    <div class="col-xs-3"> <!-- required for floating -->
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs tabs-right sideways">
+        <li class="active"><a href="#home-vr" data-toggle="tab">Home</a></li>
+        <li><a href="#profile-vr" data-toggle="tab">Profile</a></li>
+        <li><a href="#messages-vr" data-toggle="tab">Messages</a></li>
+        <li><a href="#settings-vr" data-toggle="tab">Settings</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endhighlight %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<iframe src="bare-demo.html" seamless="1" frameborder="0" width="100%" height="1250"></iframe>
+</script>

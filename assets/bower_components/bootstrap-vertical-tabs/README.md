@@ -1,4 +1,4 @@
-Bootstrap Vertical Tabs
+Bootstrap Vertical Tabs ![bower version](http://img.shields.io/bower/v/bootstrap-vertical-tabs.svg)
 =======================
 
 Vertical tabs component for Bootstrap 3.
@@ -6,21 +6,20 @@ Vertical tabs component for Bootstrap 3.
 ![screenshot](screenshot.png)
 
 ### Install
-* Via bower (recommended):  
-```bash  
-  bower install bootstrap-vertical-tabs
+* Via npm:
+```bash
+ $ npm i -S bootstrap-vertical-tabs
 ```
-* Or you can just clone, [download (v1.1.0)](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.1.0.zip) from GitHub.
+* Via bower (recommended):
+```bash
+ $ bower install bootstrap-vertical-tabs
+```
+* Or you can just clone, [download (v1.2.2)](https://github.com/dbtek/bootstrap-vertical-tabs/archive/1.2.2.zip) from GitHub.
 
 ### Usage
 
 * [Get](https://github.com/dbtek/bootstrap-vertical-tabs#install) the package.
-* Include in your html.
-
-```html
-<link rel="stylesheet" href="bootstrap.vertical-tabs.css">
-```
-
+* Include css in your html. / Load with webpack or css processors.
 * Use it.
 
 #### Left Tabs
@@ -43,7 +42,7 @@ Vertical tabs component for Bootstrap 3.
       <div class="tab-pane" id="messages">Messages Tab.</div>
       <div class="tab-pane" id="settings">Settings Tab.</div>
     </div>
-</div>  
+</div>
 ```
 
 #### Right Tabs
@@ -68,17 +67,22 @@ Vertical tabs component for Bootstrap 3.
   </ul>
 </div>
 ```
-* :new: Vertical texts! add `vertical-text` class to tabs.
+####Sideways Tabs :new:
+
+Add `sideways` class to tabs.
+
+Example:
+```
+  <ul class="nav nav-tabs tabs-left sideways">
+    ...
+```
 
 ![screenshot vertical texts](screenshot-v.png)
 
-* Further, take a look at included demo!
+Further, take a look at included demo!
 
 ### License
 [MIT](opensource.org/licenses/MIT)
 
 ### Author
 Ismail Demirbilek, [@dbtek](http://twitter.com/dbtek).
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/bootstrap-vertical-tabs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
